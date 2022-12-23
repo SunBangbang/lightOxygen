@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "商品分类",
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "goods-cate1": "/pages/goods_cate/goods_cate1",
+    "goods-cate2": "/pages/goods_cate/goods_cate2",
+    "goods-cate3": "/pages/goods_cate/goods_cate3",
+    "tab-bar": "/pages/index/visualization/components/tabBar",
+    "product-window": "/components/productWindow/index",
+    "good-class": "/components/goodClass/index",
+    "cart-list": "/components/cartList/index",
+    "parabala-ball": "/components/parabolaBall/ParabolaBall"
+  }
+}

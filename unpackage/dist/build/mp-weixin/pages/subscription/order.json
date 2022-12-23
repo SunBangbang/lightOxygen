@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "payment": "/components/payment/index",
+    "home": "/components/home/index",
+    "empty-page": "/components/emptyPage",
+    "authorize": "/components/Authorize"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "page-footer": "/components/pageFooter/index",
+    "recommend": "/components/recommend/index",
+    "product-window": "/components/productWindow/index",
+    "tab-bar": "/pages/index/visualization/components/tabBar",
+    "authorize": "/components/Authorize"
+  }
+}

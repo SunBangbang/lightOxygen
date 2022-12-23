@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/diy/components/news"],{"043a":function(t,n,i){},"063e":function(t,n,i){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"news",props:{dataConfig:{type:Object,default:function(){}},isSortType:{type:String|Number,default:0}},data:function(){return{indicatorDots:!1,autoplay:!0,duration:500,itemNew:this.dataConfig.listConfig.list,logoConfig:this.dataConfig.logoConfig.url,mbConfig:this.dataConfig.mbConfig.val,txtStyle:this.dataConfig.txtStyle.type,txtColor:this.dataConfig.txtColor.color[0].item,bgColor:this.dataConfig.bgColor.color[0].item,bgStyle:this.dataConfig.bgStyle.type,prConfig:this.dataConfig.prConfig.val,list:[],title:""}},created:function(){var t=this;this.itemNew.forEach((function(n,i){t.list[0]=n.chiild[0].val}))},mounted:function(){},methods:{}};n.default=o},"0ceb":function(t,n,i){"use strict";var o=i("043a"),e=i.n(o);e.a},"3ac0":function(t,n,i){"use strict";i.r(n);var o=i("063e"),e=i.n(o);for(var a in o)"default"!==a&&function(t){i.d(n,t,(function(){return o[t]}))}(a);n["default"]=e.a},"71ba":function(t,n,i){"use strict";i.d(n,"b",(function(){return e})),i.d(n,"c",(function(){return a})),i.d(n,"a",(function(){return o}));var o={uNoticeBar:function(){return i.e("node-modules/uview-ui/components/u-notice-bar/u-notice-bar").then(i.bind(null,"ae23"))}},e=function(){var t=this,n=t.$createElement;t._self._c},a=[]},9972:function(t,n,i){"use strict";i.r(n);var o=i("71ba"),e=i("3ac0");for(var a in e)"default"!==a&&function(t){i.d(n,t,(function(){return e[t]}))}(a);i("0ceb");var u,r=i("f0c5"),f=Object(r["a"])(e["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],u);n["default"]=f.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/diy/components/news-create-component',
+    {
+        'pages/index/diy/components/news-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("9972"))
+        })
+    },
+    [['pages/index/diy/components/news-create-component']]
+]);
